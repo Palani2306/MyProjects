@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Styling for the tab container */
+.tab-container {
+    display: flex;
+    justify-content: center; /* Centers the tabs horizontally */
+    background-color: #f1f1f1; /* Background for the tab area */
+    padding: 10px; /* Adds padding around the tabs */
+}
+
+/* Styling for each tab */
+.tab {
+    padding: 14px 20px;
+    margin: 0 10px;
+    background-color: #ddd; /* Default background for tabs */
+    border-radius: 5px; /* Rounds the corners */
+    text-decoration: none; /* Removes underline from the links */
+    color: black; /* Text color */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for tabs */
+.tab:hover {
+    background-color: #bbb; /* Background color on hover */
+}
+
+/* Active tab styling (if you want to add it) */
+.tab:active {
+    background-color: #aaa; /* Background color when active */
+    color: white; /* Change text color when active */
+}
